@@ -1,12 +1,14 @@
 {embed="includes/header"}
     <div class="site-wrapper">
 			{embed="includes/menu"}
-			<div class="hero-unit" style="background-image: url({site_url}assets/img/bg-aequales.jpg)"> <!-- HERO-UNIT -->
+			{exp:channel:entries channel="homepage_imagen" limit="1"}
+			<div class="hero-unit" style="background-image: url({homepage_imagen})"> <!-- HERO-UNIT -->
 			  <!-- <div class="video-placeholder" style="background: url({site_url}assets/img/project-bg-1.jpg) no-repeat center top;"></div> -->
 			  <div class="overlay flex-middle">
 			    <div class="container-sm"></div>
 			  </div>
 			</div> <!-- END:Hero-unit -->
+			{/exp:channel:entries}
 		  <div class="text-fold text-center bg-gray-lighter">
 		  	<div class="container pv-35 ph-21">
 		  		<h3 class="thin">Trabajamos para reducir las brechas de género en el lugar de trabajo para crear igualdad de condiciones y fomentar un mejor ambiente de trabajo y una mayor productividad.</h3>
