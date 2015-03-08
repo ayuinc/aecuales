@@ -1,72 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <!-- Project SEO -->
-    <meta name="description" content="">
-    <meta name="keywords" content=""> 
-    <meta name="author" content="@MadeByGus">
-    <!-- Responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <!-- FAVICON -->
-    <link rel="shortcut icon" href="assets/icons/favicon.ico">
-    <!-- WebFonts -->
-    <script src="//use.typekit.net/upg8bke.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-    <!-- APP STYLES 
-      *Run grunt build when ready
-      <link rel="stylesheet" href="assets/css/style.pkgd.min.css">
-    -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/ebm.css" rel="stylesheet">
-  </head>
-  <body>
+{embed="includes/header"}
     <div class="site-wrapper">
-      <div class="site-menu"></div>
-    	<header class="header">
-			  <div class="left col-sm-4">
-			    <a href="#" class="logo"><img src="assets/icons/aequales-logo.png" alt="" class="p-7"></a>
-			  </div>
-			  <div class="main-nav">
-            <div class="navbar">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-
-                </button>
-              </div>
-              <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav pull-right">
-                    <li class="active">
-                      <a href="#problematica" class="h3 mrp-7">Problemática</a>
-                    </li>
-                    <li>
-                      <a href="#camino-equidad" class="h3 mrp-7">Servicios</a>
-                    </li>
-                    <li>
-                      <a href="#camino-equidad" class="h3 mrp-7">Servicios</a>
-                    </li>
-                    <li>
-                      <a href="#blog" class="h3 mrp-7">Blog</a>
-                    </li>
-                    <li>
-                      <a href="#contacto" class="h3">Contacto</a>
-                    </li>
-                </ul>
-              </div>
-              <!--/.nav-collapse -->
-            </div>
-        </div>			
-      </header>
-			<div class="hero-unit" style="background-image: url(assets/img/bg-aequales.jpg)"> <!-- HERO-UNIT -->
-			  <!-- <div class="video-placeholder" style="background: url(assets/img/project-bg-1.jpg) no-repeat center top;"></div> -->
+			{embed="includes/menu"}
+			<div class="hero-unit" style="background-image: url({site_url}assets/img/bg-aequales.jpg)"> <!-- HERO-UNIT -->
+			  <!-- <div class="video-placeholder" style="background: url({site_url}assets/img/project-bg-1.jpg) no-repeat center top;"></div> -->
 			  <div class="overlay flex-middle">
-			    <div class="container-sm">
-			      
-			    </div>
+			    <div class="container-sm"></div>
 			  </div>
 			</div> <!-- END:Hero-unit -->
 		  <div class="text-fold text-center bg-gray-lighter">
@@ -97,7 +35,7 @@
 								</div>
       				</div>
       				<div class="col-md-4">
-      					<img src="assets/icons/grafica.png">
+      					<img src="{site_url}assets/icons/grafica.png">
       				</div>
       			</div>
       		</div>
@@ -231,59 +169,23 @@
       		<div class="container-fluid text-center">
 	      		<h1 class="medium lead">El Equipo</h1>
 	      		<ul class="grid-list grid-list-3 grid-list-1-xs grid-list-2-sm ">
+		      		{exp:channel:entries channel="equipo" limit="3"}
 	      			<li class="grid-list-item normalize-text">
 	      				<div class="banner half-height">
 	      					<div class="banner-pic">
-	      						<img src="assets/icons/MaudSandoval.jpg" alt="Nombre de la persona" class="img-circle" style="width: 140px; height: 140px; ">
+	      						<img src="{fotografia}" alt="Nombre de la persona" class="img-circle" style="width: 140px; height: 140px; ">
 	      					</div>
 	      					<div class="banner-content ph-56">
 	      						<div class="pv-21">
-		      						<h3>Andrea de la Piedra</h3>
-		      						<h5>Psicóloga</h5>
-		      						<span>Perú</span>
+		      						<h3>{title}</h3>
+		      						<h5>{cargo}</h5>
+		      						<span>{pais}</span>
 	      						</div>
-	      						<p>Periodista con experiencia en responsabilidad social empresarial, desarrollo de proyectos sociales y
-                      comunicaciones. Fellow del Global Competitiveness Leadership Program de la Universidad de
-                      Georgetown, EEUU. </p>
+	      						<p>{introduccion}</p>
 	      					</div>
 	      				</div>
 	      			</li>
-              <li class="grid-list-item normalize-text">
-                <div class="banner half-height">
-                  <div class="banner-pic">
-                    <img src="assets/icons/MariaAdelaida.jpg" alt="Nombre de la persona" class="img-circle" style="width: 140px; height: 140px; ">
-                  </div>
-                  <div class="banner-content ph-56">
-                    <div class="pv-21">
-                      <h3>Maud Sandoval</h3>
-                      <h5>Psicóloga</h5>
-                      <span>Perú</span>
-                    </div>
-                    <p>Socióloga, con enfoque intercultural. Especialista en temas de género, con experiencia en proyectos
-                    de desarrollo y responsabilidad social empresarial.</p>
-                  </div>
-                  <div class="redes-sociales text-center">
-                    
-                  </div>
-                </div>
-              </li>
-              <li class="grid-list-item normalize-text">
-                <div class="banner half-height">
-                  <div class="banner-pic">
-                    <img src="assets/icons/AndreadelaPiedra.jpg" alt="Nombre de la persona" class="img-circle" style="width: 140px; height: 140px; ">
-                  </div>
-                  <div class="banner-content ph-56">
-                    <div class="pv-21">
-                      <h3>Maria Adelaida Perdomo</h3>
-                      <h5>Psicóloga</h5>
-                      <span>Perú</span>
-                    </div>
-                    <p>Psicóloga magíster en derechos humanos del London School of Economics con experiencia en
-                    desarrollo social en educación y género. Fellow del Global Competitiveness Leadership Program
-                    de la Universidad de Georgetown, EEUU. </p>
-                  </div>
-                </div>
-              </li>
+	      			{/exp:channel:entries}
 	      		</ul>
       		</div>
       	</section>
@@ -291,15 +193,11 @@
           <div class="container text-center pvp-7">
             <h1>Aliados y Clientes</h1>
             <div class="row mt-56">
+	            {exp:channel:entries channel="aliados" limit="3"}
               <div class="col-md-4">
-                <img src="assets/icons/owit.png" class="img-responsive" alt="">
+                <img src="{logo}" class="img-responsive" alt="">
               </div>
-              <div class="col-md-4">
-                <img src="assets/icons/ventures.png" class="img-responsive" alt="">
-              </div>
-              <div class="col-md-4">
-                <img src="assets/icons/logomet.png" class="img-responsive" alt="">
-              </div>
+              {/exp:channel:entries}
             </div>
           </div>
         </section>
@@ -315,45 +213,21 @@
               </div>
               <div class="col-xs-12">
                 <div class="row mv-42">
+                  {exp:channel:entries channel="blog" limit="3"}
                   <div class="col-sm-4">
                     <div class="cuadrado-involucrate">
-                      <div class="involucrate-background ignore-srcset" style="background:url('assets/img/leaf.jpg'); background-size: cover;">
+                      <div class="involucrate-background ignore-srcset" style="background:url('{imgen_blog}'); background-size: cover;">
                       </div>
                       <div class="overlay-involucrate">
                         <div class="bottom-half-container">
-                          <h3>Titulo de Post 1</h3>
-                          <p class="text-white lead thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, voluptatem, earum magni.</p>
-                          <a href="#" class="btn-outline2-mini btn-gray-lighter2">Ver más</a>
+                          <h3>{title}</h3>
+                          <p class="text-white lead thin">{blog_introduccion}</p>
+                          <a href="{site_url}/blog/post/{url_title}" class="btn-outline2-mini btn-gray-lighter2">Ver más</a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-4">
-                    <div class="cuadrado-involucrate">
-                      <div class="involucrate-background ignore-srcset" style="background:url('assets/img/leaf.jpg'); background-size: cover;">
-                      </div>
-                      <div class="overlay-involucrate">
-                        <div class="bottom-half-container">
-                          <h3>Titulo de Post 2</h3>
-                          <p class="text-white lead thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, voluptatem, earum magni.</p>
-                          <a href="#" class="btn-outline2-mini btn-gray-lighter2">Ver más</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="cuadrado-involucrate">
-                      <div class="involucrate-background ignore-srcset" style="background:url('assets/img/leaf.jpg'); background-size: cover;">
-                      </div>
-                      <div class="overlay-involucrate">
-                        <div class="bottom-half-container">
-                          <h3>Titulo de Post 2</h3>
-                          <p class="text-white lead thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, voluptatem, earum magni.</p>
-                          <a href="#" class="btn-outline2-mini btn-gray-lighter2">Ver más</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+									{/exp:channel:entries}
                 </div>
               </div>
             </div>
@@ -391,36 +265,4 @@
             </div>
           </div>
         </section>
-        <section id="contacto" class="bg-gray-lighter">
-          <div class="container-fluid">
-            <div class="row pv-42">
-              <div class="col-md-4 plp-7 mt-49">
-                <div id="laboratoria-banner"><div class="laboratoria-icon" style="background-image: url(https://cdn.rawgit.com/Laboratoria/Laboratoria.02/master/LaboratoriaBanner/img/laboratoria-icon-black.png)"></div> <div class="laboratoria-label"> <p>Proyecto desarrollado por<br><a href="http://laboratoria.la" target="_blank">laboratoria.la</a></p> </div></div>
-              </div>
-              <div class="col-md-3 border-right">
-                <h3 class="light">Aequales Perù</h3>
-                <h4 class="thin">942 773 788</h4>
-                <h4 class="thin">Calle Flora Tristán 430, San Isidro</h4>
-                <h4 class="thin">andrea.delapiedra@aequales.com</h4>
-              </div>
-              <div class="col-md-4 plp-7">
-                <h3 class="light">Aequales Colombia</h3>
-                <h4 class="thin">942 773 788</h4>
-                <h4 class="thin">Calle Flora Tristán 430, San Isidro</h4>
-                <h4 class="thin">andrea.delapiedra@aequales.com</h4>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-    <!-- APP SCRIPTS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/laboratoriaBanner.js"></script>
-    <script src="assets/js/scripts.min.js"></script>
-    <script src="assets/js/collapse.js"></script>
-    <script src="assets/js/dropdown.js"></script>
-    <script src="assets/js/transition.js"></script>
-
-  </body>
-</html>
+{embed="includes/footer"}
