@@ -4431,7 +4431,7 @@ body {
   .involucrate .bottom-half-container h3 {
     margin-bottom: 14px; }
   .involucrate .bottom-half-container a {
-    visibility: hidden;
+    /*visibility: hidden;*/
     font-size: 1.6em; }
     .involucrate .bottom-half-container a:hover {
       text-decoration: none; }
@@ -5158,7 +5158,7 @@ footer {
     height: 52px;
     z-index: 30; }
   #siguenos .social > li a.facebook .overlay {
-    background: #E1A100; }
+    background: #aaa; }
   #siguenos .social > li a.facebook .icon {
     background: url(../../assets/icons/fcbk.png) no-repeat;
     background-size: cover; }
@@ -5167,16 +5167,16 @@ footer {
   #siguenos .social > li a.youtube .icon {
     background: url(../assets/icons/social.png) no-repeat -119px -3px; }
   #siguenos .social > li a.twitter .overlay {
-    background: #E1A100; }
+    background: #aaa; }
   #siguenos .social > li a.twitter .icon {
     background: url(../../assets/icons/twitter-outline.png) no-repeat;
     background-size: cover; }
   #siguenos .social > li a.instagram .overlay {
     background: #4187FB; }
-  #siguenos .social > li a.instagram .icon {
+  #siguenos .social> li a.instagram .icon {
     background: url(../assets/icons/social.png) no-repeat -289px -3px; }
   #siguenos .social > li a.contact .overlay {
-    background: #E1A100; }
+    background: #aaa; }
   #siguenos .social > li a.contact .icon {
     background: url(../../assets/icons/social.png) no-repeat;
     background-size: cover; }
