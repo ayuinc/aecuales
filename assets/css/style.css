@@ -4328,14 +4328,14 @@ body {
 
 #talleres .content {
   border: 2px solid #BAB9B6;
-  border-radius: 17px;
-  padding: 9px;
-  height: 428px; }
+  border-radius: 7px;
+  padding: 15px;
+  height: 372px; }
   #talleres .content .title-grid {
     border-bottom: 1px solid #BAB9B6; }
   #talleres .content:hover {
     background-color: #E17139;
-    border: 2px solid #E17139;
+    border: 1px solid #E17139;
     color: white; }
     #talleres .content:hover .title-grid {
       border-bottom: 1px solid white; }
