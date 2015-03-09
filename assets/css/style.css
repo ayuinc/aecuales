@@ -4298,8 +4298,8 @@ body {
   color: black; }
 #problematica .circle {
   border: 3px solid #5CBBAA;
-  height: 210px;
-  width: 210px;
+  height: 180px;
+  width: 180px;
   margin-left: 70px;
   color: #5bbaac; }
   #problematica .circle:hover {
@@ -4308,7 +4308,7 @@ body {
     border: 3px solid #E1A100; }
   #problematica .circle h1 {
     font-size: 65px;
-    margin-top: 56px; }
+    margin-top: 48px; }
 
 .big-text {
   font-size: 110px;
