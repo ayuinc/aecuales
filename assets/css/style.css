@@ -4276,8 +4276,9 @@ body {
 
 .hero-unit {
   position: relative;
-  height: 590px;
+  height: 521px;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover; }
   .hero-unit.video-bg {
     overflow: hidden;
