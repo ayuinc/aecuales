@@ -1,0 +1,21 @@
+{embed="includes/header"}
+    <div class="site-wrapper">
+			{embed="includes/menu"}
+			{exp:channel:entries channel="blog" limit="1"}
+			<div class="site-content">
+        <section id="blog pv-63">
+          <div class="container pv-70">
+            <h2 class="pull-left mh-7 thin">{title}</h2>
+            <div class="row pv-28">
+	            <div class="col-sm-12">
+								<img src="{imgen_blog}" alt="" class="img-responsive" width="100%">
+	            </div>
+            </div>
+            <div class="">
+              <p class="text-gray-light">{blog_contenido}</p>
+            </div>
+          </div>
+        </section>   
+      </div>
+      {/exp:channel:entries}
+{embed="includes/footer"}
