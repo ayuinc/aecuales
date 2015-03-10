@@ -4329,7 +4329,7 @@ body {
 #talleres .content {
   border-radius: 7px;
   padding: 15px;
-  height: 310px; }
+  height: 235px; }
   #talleres .content .title-grid {
     border-bottom: 1px solid white; }
 
@@ -4435,9 +4435,9 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(0, 0, 0, 0.8); }
 .involucrate .cuadrado-involucrate:hover .overlay-involucrate {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 30; }
   .involucrate .cuadrado-involucrate:hover .overlay-involucrate a {
     visibility: visible; }
