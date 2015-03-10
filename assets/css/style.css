@@ -5212,7 +5212,25 @@ footer {
 
   @media only screen and (max-width: 480px) {
     #camino-equidad .img-circle {
-      margin-left: 62px !important;
+      margin-left: 68px !important;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #aliados .row {
+      padding-left: 66px !important;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #contacto .banner-lab {
+      padding-left: 11px !important;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #contacto .box-colombia {
+      padding-left: 15px !important;
     }
   }
 
