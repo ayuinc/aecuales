@@ -4337,6 +4337,8 @@ body {
     background-color: #E17139;
     border: 1px solid #E17139;
     color: white; }
+    #talleres .content p:hover {
+    color: #eee !important; }
     #talleres .content:hover .title-grid {
       border-bottom: 1px solid white; }
 
