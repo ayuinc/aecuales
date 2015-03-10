@@ -5184,4 +5184,10 @@ footer {
 .border-right {
   border-right: 1px solid #ccc; }
 
+  @media only screen and (max-width: 480px) {
+    #problematica .img-piramide img {
+      width: 300px;
+    }
+  }
+
 /*# sourceMappingURL=style.css.map */
