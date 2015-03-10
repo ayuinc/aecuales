@@ -5186,7 +5186,13 @@ footer {
 
   @media only screen and (max-width: 480px) {
     #problematica .img-piramide img {
-      width: 300px;
+      width: 280px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #problematica .circle {
+      margin-left: 61px;
     }
   }
 
