@@ -4327,7 +4327,6 @@ body {
     border: 1px solid #5CBBAA; }
 
 #talleres .content {
-  border: 1px solid #BAB9B6;
   border-radius: 7px;
   padding: 15px;
   height: 310px; }
@@ -4335,12 +4334,6 @@ body {
     border-bottom: 1px solid #BAB9B6; }
     #talleres .content p {
     color: #BAB9B6; }
-  #talleres .content:hover {
-    background-color: #E17139;
-    border: 1px solid #E17139;
-    color: white !important; }
-    #talleres .content:hover .title-grid {
-      border-bottom: 1px solid white; }
 
 .line {
   background-color: #E1A100;
