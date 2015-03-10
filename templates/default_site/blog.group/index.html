@@ -1,0 +1,35 @@
+{embed="includes/header"}
+    <div class="site-wrapper">
+			{embed="includes/menu"}
+			
+			<div class="site-content">
+				<section class="pt-70 pb-35">
+					<div class="container-sm">
+						<h1>Blog Aequales</h1>
+					</div>
+				</section>
+				{exp:channel:entries channel="blog" limit="10"}
+        <section id="blog pb-35">
+          <div class="container-sm">
+            <h3 class="thin mb-0 pb-0 medium">{title}</h3>
+            <p class="text-gray-light">Autor: {blog_autor}</p>
+            <div class="row pv-21">
+	            <div class="col-sm-12">
+								<img src="{imgen_blog}" alt="" class="img-responsive" width="100%">
+	            </div>
+            </div>
+            <div class="pb-35">
+              <p class="text-gray thin">{blog_introduccion}</p>
+              <p><a href="{site_url}/blog/post/{url_title}">Lee más ›</a></p>
+            </div>
+          </div>
+        </section> 
+        <section class="pb-70">
+		    {paginate}
+		        <p>Página {current_page} de {total_pages} páginas {pagination_links}</p>
+		    {/paginate}
+        </section>
+        {/exp:channel:entries}  
+      </div>
+      
+{embed="includes/footer"}
