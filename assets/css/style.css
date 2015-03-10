@@ -5209,7 +5209,7 @@ footer {
   }
 
   @media only screen and (max-width: 480px) {
-    #camino-equidad .img-cicrcle {
+    #camino-equidad .img-circle {
       margin-left: 62px !important;
     }
   }
