@@ -146,7 +146,7 @@
         </section>
       	<section id="el-equipo" class="bg-white minhp-100 pv-70">
       		<div class="container-fluid text-center ph-70">
-	      		<h1 class="light lead">El Equipo</h1>
+	      		<h1 class="light lead pb-35">El Equipo</h1>
 	      		<ul class="grid-list grid-list-3 grid-list-1-xs grid-list-2-sm ">
 		      		{exp:channel:entries channel="equipo" limit="3"}
 	      			<li class="grid-list-item normalize-text">
@@ -154,12 +154,12 @@
 	      					<div class="banner-pic">
 	      						<img src="{fotografia}" alt="Nombre de la persona" class="img-circle" style="width: 140px; height: 140px; ">
 	      					</div>
-	      					<div class="banner-content ph-56">
+	      					<div class="banner-content">
 	      						<div class="pv-21">
-		      						<h3>{title}</h3>
-		      						<span>{pais}</span>
+		      						<h4 class="medium text-gray-dark">{title}</h4>
+		      						<p class="thin"><em>{pais}</em></p>
 	      						</div>
-	      						<p>{introduccion}</p>
+	      						<p class="thin">{introduccion}</p>
                     <!--<div class="redes-sociales mlp-28 mv-14">
                       <a href="{facebook}"><img src="{site_url}assets/icons/Twitter-2.png" class="img-responsive pull-left" alt=""></a>
                       <a href="{twitter}"><img src="{site_url}assets/icons/Linkedin-3.png" class="img-responsive pull-left" alt=""></a>
@@ -176,8 +176,8 @@
           <div class="container text-center pv-70">
             <h1 class="light lead">Aliados y Clientes</h1>
             <div class="row mt-56">
-	            {exp:channel:entries channel="aliados" limit="3"}
-              <div class="col-md-4">
+	            {exp:channel:entries channel="aliados" limit="6"}
+              <div class="col-md-3">
                 <img src="{logo}" class="img-responsive" alt="{title}" width="70%">
               </div>
               {/exp:channel:entries}
@@ -202,15 +202,20 @@
                       <div class="involucrate-background ignore-srcset" style="background:url('{imgen_blog}'); background-size: cover;">
                       </div>
                       <div class="overlay-involucrate">
-                        <div class="bottom-half-container">
-                          <h3>{title}</h3>
-                          <p class="text-white lead thin">{blog_introduccion}</p>
-                          <a href="{site_url}/blog/post/{url_title}" class="btn-outline2-mini btn-gray-lighter2">Ver más</a>
+                        <div class="bottom-half-container p-21">
+                          <h4 class="medium text-white">{title}</h4>
+                          <!--<p class="text-white thin pb-21">{blog_introduccion}</p>-->
+                          <a href="{site_url}/blog/post/{url_title}" class="btn-outline2-mini btn-gray-lighter2 ">Ver más</a>
                         </div>
                       </div>
                     </div>
                   </div>
 									{/exp:channel:entries}
+                </div>
+                <div class="row">
+                	<h4 class="mt-35">
+	                	<a href="{site_url}blog/post/{url_title}">Lee todos los artículos ›</a>
+	                </h4>
                 </div>
               </div>
             </div>
