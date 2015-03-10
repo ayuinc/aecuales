@@ -4333,6 +4333,8 @@ body {
   height: 310px; }
   #talleres .content .title-grid {
     border-bottom: 1px solid #BAB9B6; }
+    #talleres .content p {
+    color: #BAB9B6; }
   #talleres .content:hover {
     background-color: #E17139;
     border: 1px solid #E17139;
