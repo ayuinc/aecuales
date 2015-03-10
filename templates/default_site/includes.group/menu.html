@@ -3,29 +3,36 @@
 			  <div class="left col-sm-4 pl-0">
 			    <a href="{site_url}" class="logo"><img src="{site_url}assets/icons/aequales-logo.png" alt="" class="p-7"></a>
 			  </div>
-        <nav class="navbar navbar-default">
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-movil">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Brand</a>
+        <div class="flex-middle">
+          <div class="main-nav">
+            <div class="navbar mb-0">
+              <div class="navbar-header">
+                <button type="button" class="tcon tcon-menu--xcross hidden-lg" aria-label="toggle menu">
+                  <span class="tcon-menu__lines" aria-hidden="true"></span>
+                  <span class="tcon-visuallyhidden">toggle menu</span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav pull-right">
+                  <li class="active">
+                    <a href="{site_url}#problematica" class="h4 light mrp-7">Problemática</a>
+                  </li>
+                  <li>
+                    <a href="{site_url}#el-equipo" class="h4 light mrp-7">Nosotros</a>
+                  </li>
+                  <li>
+                    <a href="{site_url}#camino-equidad" class="h4 light mrp-7">Servicios</a>
+                  </li>
+                  <li>
+                    <a href="{site_url}blog" class="h4 light mrp-7">Blog</a>
+                  </li>
+                  <li>
+                    <a href="{site_url}#contacto" class="h4 light">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.nav-collapse -->
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="menu-movil">
-              <ul class="nav navbar-nav">
-                <li><a href="{site_url}#problematica" class="h4 light mrp-7">Problemática</a></li>
-                <li><a href="{site_url}#el-equipo" class="h4 light mrp-7">Nosotros</a></li>
-                <li><a href="{site_url}#camino-equidad" class="h4 light mrp-7">Servicios</a></li>
-                <li><a href="{site_url}blog" class="h4 light mrp-7">Blog</a></li>
-                <li><a href="{site_url}#contacto" class="h4 light">Contacto</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
+          </div>      
+        </div>
       </header>
