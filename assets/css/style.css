@@ -4316,7 +4316,7 @@ body {
   font-size: 7.21429rem; }
 
 #beneficios-equidad .content {
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 7px;
   padding: 15px;
   height: 387px; }
@@ -5192,7 +5192,25 @@ footer {
 
   @media only screen and (max-width: 480px) {
     #problematica .circle {
-      margin-left: 61px;
+      margin-left: 53px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #beneficios-equidad .list-beneficios {
+      margin-left: 14px !important;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #beneficios-equidad .content {
+      height: 274px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #camino-equidad .img-cicrcle {
+      margin-left: 62px !important;
     }
   }
 
