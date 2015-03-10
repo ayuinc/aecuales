@@ -5244,6 +5244,12 @@ footer {
     }
   }
 
+  @media only screen and (max-width: 480px) {
+    #el-equipo .redes-sociales {
+      margin-left: 47px !important;
+    }
+  }
+
   .collapse {
   display: none; }
   .collapse.in {
