@@ -5234,6 +5234,25 @@ footer {
       padding-left: 15px !important;
     }
   }
+
+  @media only screen and (max-width: 480px) {
+    header .left .logo img {
+      width: 63px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    header .navbar-collapse {
+      padding-right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    header .navbar-collapse ul li a {
+      padding-right: 0;
+    }
+  }
+
   .collapse {
   display: none; }
   .collapse.in {
