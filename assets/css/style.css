@@ -5236,7 +5236,7 @@ footer {
   }
 
   @media only screen and (max-width: 480px) {
-    header .left .logo img {
+    header .logo img {
       width: 63px;
     }
   }
