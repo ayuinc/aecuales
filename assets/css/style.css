@@ -5233,6 +5233,12 @@ footer {
   }
 
   @media only screen and (max-width: 480px) {
+    #talleres .content {
+      height: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
     header .navbar-collapse {
       padding-right: 0;
     }
