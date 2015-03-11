@@ -284,7 +284,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "museo-sans-rounded", Helvetica, Arial, sans-serif;
+  font-family: "BryantPro-Light", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #6F6F6E;
@@ -3555,27 +3555,27 @@ input[type="button"].btn-block {
 ========================================*/
 /* PROJECT ESPECIFIC FONTS */
 .thin {
-  font-family: "museo-sans-rounded", Helvetica, Arial, sans-serif !important;
+  font-family: "BryantPro-Light", Helvetica, Arial, sans-serif !important;
   font-weight: 100;
   font-style: normal; }
 
 .light {
-  font-family: "museo-sans-rounded", Helvetica, Arial, sans-serif !important;
+  font-family: "BryantPro-Light", Helvetica, Arial, sans-serif !important;
   font-weight: 300;
   font-style: normal; }
 
 .book {
-  font-family: "museo-sans-rounded", Helvetica, Arial, sans-serif !important;
+  font-family: "BryantPro-Light", Helvetica, Arial, sans-serif !important;
   font-weight: 400;
   font-style: normal; }
 
 .medium {
-  font-family: "museo-sans-rounded", Helvetica, Arial, sans-serif !important;
+  font-family: "BryantPro-Light", Helvetica, Arial, sans-serif !important;
   font-weight: 500;
   font-style: normal; }
 
 .bold {
-  font-family: "museo-sans-rounded", Helvetica, Arial, sans-serif !important;
+  font-family: "BryantPro-Light", Helvetica, Arial, sans-serif !important;
   font-weight: 700;
   font-style: normal; }
 
