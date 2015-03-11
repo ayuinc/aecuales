@@ -5289,3 +5289,38 @@ tbody.collapse.in {
   transition: height 0.35s ease; }
 
 /*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: 'BryantPro-Bold';
+  src: url('{site_url}assets/fonts/BryantPro-Bold.eot'); /* IE9 */
+  src: url('{site_url}assets/fonts/BryantPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('{site_url}assets/fonts/BryantPro-Bold.woff') format('woff'), 
+       url('{site_url}assets/fonts/BryantPro-Bold.ttf')  format('truetype'), 
+       url('{site_url}assets/fonts/BryantPro-Bold.svg') format('svg'); 
+}
+
+@font-face {
+  font-family: 'BryantPro-Light';
+  src: url('{site_url}assets/fonts/BryantPro-Light.eot'); /* IE9 */
+  src: url('{site_url}assets/fonts/BryantPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('{site_url}assets/fonts/BryantPro-Light.woff') format('woff'), 
+       url('{site_url}assets/fonts/BryantPro-Light.ttf')  format('truetype'), 
+       url('{site_url}assets/fonts/BryantPro-Light.svg') format('svg'); 
+}
+
+@font-face {
+  font-family: 'BryantPro-Medium';
+  src: url('{site_url}assets/fonts/BryantPro-Medium.eot'); 
+  src: url('{site_url}assets/fonts/BryantPro-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('{site_url}assets/fonts/BryantPro-Medium.woff') format('woff'), 
+       url('{site_url}assets/fonts/BryantPro-Medium.ttf')  format('truetype'), 
+       url('{site_url}assets/fonts/BryantPro-Medium.svg') format('svg'); 
+}
+
+@font-face {
+  font-family: 'BryantPro-Regular';
+  src: url('{site_url}assets/fonts/BryantPro-Regular.eot'); 
+  src: url('{site_url}assets/fonts/BryantPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('{site_url}assets/fonts/BryantPro-Regular.woff') format('woff'), 
+       url('{site_url}assets/fonts/BryantPro-Regular.ttf')  format('truetype'), 
+       url('{site_url}assets/fonts/BryantPro-Regular.svg') format('svg'); 
+}
