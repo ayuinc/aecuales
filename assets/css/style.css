@@ -4355,11 +4355,11 @@ body {
   background-position: center;
   background-repeat: no-repeat; }
   #camino-equidad .lupa:hover {
-    background: #E17139;
+    background: #E1A100;
     background-image: url(../../assets/icons/blanco_investigacion.png);
     background-position: center;
     background-repeat: no-repeat;
-    border: 3px solid #E17139; }
+    border: 3px solid #E1A100; }
 #camino-equidad .idea {
   background-image: url(../../assets/icons/Idea.png);
   width: 131px;
@@ -4368,11 +4368,11 @@ body {
   background-position: center;
   background-repeat: no-repeat; }
   #camino-equidad .idea:hover {
-    background-color: #E17139;
+    background-color: #E1A100;
     background-image: url(../../assets/icons/foco_blanco.png);
     background-position: center;
     background-repeat: no-repeat;
-    border: 3px solid #E17139; }
+    border: 3px solid #E1A100; }
 #camino-equidad .herramienta {
   background-image: url(../../assets/icons/Herramienta.png);
   width: 131px;
@@ -4381,11 +4381,11 @@ body {
   background-position: center;
   background-repeat: no-repeat; }
   #camino-equidad .herramienta:hover {
-    background: #E17139;
+    background: #E1A100;
     background-image: url(../../assets/icons/blanco_tuerca.png);
     background-position: center;
     background-repeat: no-repeat;
-    border: 3px solid #E17139; }
+    border: 3px solid #E1A100; }
 #camino-equidad .tabla {
   background-image: url(../../assets/icons/Tabla.png);
   width: 131px;
@@ -4394,11 +4394,11 @@ body {
   background-position: center;
   background-repeat: no-repeat; }
   #camino-equidad .tabla:hover {
-    background: #E17139;
+    background: #E1A100;
     background-image: url(../../assets/icons/blanco_tabla.png);
     background-position: center;
     background-repeat: no-repeat;
-    border: 3px solid #E17139; }
+    border: 3px solid #E1A100; }
 
 .involucrate .cuadrado-involucrate {
   width: 100%;
