@@ -4943,7 +4943,9 @@ header,
   -ms-flex-pack: justify;
   width: 100%;
   padding: 0 14px;
-  min-height: 70px; }
+  min-height: 70px; 
+  position: fixed;
+  z-index: 10000;}
   header h1, header h2, header h3, header h4, header h5, header h6,
   header .h1, header .h2, header .h3, header .h4, header .h5, header .h6,
   header p, header .p, header span, header em, header strong, header label, header a, header i, header ul, header ol, header li,
