@@ -5330,3 +5330,7 @@ tbody.collapse.in {
 .text-fold h3 {
   line-height: 1.1 !important;
 }
+
+.text-black {
+  color: black !important;
+}
