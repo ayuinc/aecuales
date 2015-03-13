@@ -130,15 +130,15 @@
         <section id="talleres" class="bg-gray-lighter">
           <div class="container-fluid text-center pv-70">
             <ul class="grid-list grid-list-3 grid-list-1-xs grid-list-2-sm mhp-7">
-              <h1 class="light lead m-0">Talleres</h1>
-              <p class="text-center lead thin mb-35 mhp-7">Aequales ofrece capacitaciones para mujeres y hombres de todos los niveles en las organizaciones con el fin de abordar dinámicas interpersonales para lograr la equidad y el liderazgo en los equipos y en la cultura organizacional.</p>
+              <h1 class="lead m-0">Talleres</h1>
+              <p class="text-center lead bold mb-35 mhp-7">Aequales ofrece capacitaciones para mujeres y hombres de todos los niveles en las organizaciones con el fin de abordar dinámicas interpersonales para lograr la equidad y el liderazgo en los equipos y en la cultura organizacional.</p>
               {exp:channel:entries channel="talleres" limit="6"}
               <li class="grid-list-item">
                 <div class="content bg-info">
                   <div class="title-grid">
-                    <h4 class="mt-0 medium text-white">{title}</h4>
+                    <h4 class="mt-0 text-white">{title}</h4>
                   </div>
-                  <p class="thin mt-21 text-white">{talleres_introduccion}</p>
+                  <p class="bold mt-21 text-white">{talleres_introduccion}</p>
                 </div>
               </li>
               {/exp:channel:entries}
@@ -147,7 +147,7 @@
         </section>
       	<section id="el-equipo" class="bg-white minhp-100 pv-70">
       		<div class="container-fluid text-center ph-70">
-	      		<h1 class="light lead pb-35">El Equipo</h1>
+	      		<h1 class=" lead pb-35">El Equipo</h1>
 	      		<ul class="grid-list grid-list-3 grid-list-1-xs grid-list-2-sm ">
 		      		{exp:channel:entries channel="equipo" limit="3"}
 	      			<li class="grid-list-item normalize-text">
@@ -157,10 +157,10 @@
 	      					</div>
 	      					<div class="banner-content">
 	      						<div class="pv-21">
-		      						<h4 class="medium text-gray-dark">{title}</h4>
-		      						<p class="thin"><em>{pais}</em></p>
+		      						<h4 class="bold text-gray-dark">{title}</h4>
+		      						<p class="light"><em>{pais}</em></p>
 	      						</div>
-	      						<p class="thin">{introduccion}</p>
+	      						<p class="bold">{introduccion}</p>
                     <div class="redes-sociales plp-35 mv-14 ml-14">
                       <a href="{twitter}"><img src="{site_url}assets/icons/Twitter-2.png" class="img-responsive pull-left" alt=""></a>
                       <a href="{facebook}"><img src="{site_url}assets/icons/Linkedin-3.png" class="img-responsive pull-left" alt=""></a>
@@ -174,10 +174,10 @@
       	</section>
         <section id="aliados" class="bg-gray-lighter">
           <div class="container text-center pv-70">
-            <h1 class="light lead">Aliados y Clientes</h1>
+            <h1 class="text-black lead">Aliados y Clientes</h1>
             <div class="row mt-56">
 	            {exp:channel:entries channel="aliados" limit="6"}
-              <div class="col-md-3">
+              <div class="col-md-4">
                 <img src="{logo}" class="img-responsive" alt="{title}" width="70%">
               </div>
               {/exp:channel:entries}
@@ -190,7 +190,7 @@
               <div class="col-xs-12">
                 <div class="row">
                   <div class="col-sm-6 col-sm-offset-3">
-                    <h1 class="home light lead m-0">Blog</h1>
+                    <h1 class="home lead m-0">Blog</h1>
                   </div>
                 </div>
               </div>
@@ -203,7 +203,7 @@
                       </div>
                       <div class="overlay-involucrate">
                         <div class="bottom-half-container p-21">
-                          <h4 class="medium text-white">{title}</h4>
+                          <h4 class="bold text-white">{title}</h4>
                           <!--<p class="text-white thin pb-21">{blog_introduccion}</p>-->
                           <a href="{site_url}/blog/post/{url_title}" class="btn-outline2-mini btn-gray-lighter2 btn-sm">VER MÁS</a>
                         </div>
@@ -213,7 +213,7 @@
 									{/exp:channel:entries}
                 </div>
                 <div class="row">
-                	<h4 class="mt-21">
+                	<h4 class="mt-21 bold">
 	                	<a href="{site_url}blog">Lee todos los artículos ›</a>
 	                </h4>
                 </div>
@@ -223,7 +223,7 @@
         </section>
         <section id="siguenos" class="minhp-50 bg-info pv-70">
           <div class="container">
-            <h1 class="light lead text-center m-0 text-white">Siguenos</h1>
+            <h1 class=" lead text-center m-0 text-white">Siguenos</h1>
             <div class="row pt-35">              
               <ul class="grid-list grid-list-centered grid-list-1-xs grid-list-3 social grid-list-anchors">
                 <li>
