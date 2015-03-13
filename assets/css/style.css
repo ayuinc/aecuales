@@ -4289,7 +4289,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    height: 590px; }
+    height: 521px; }
 
 [data-href] {
   cursor: pointer; }
@@ -5323,4 +5323,11 @@ tbody.collapse.in {
        url('http://www.aequales.com/assets/fonts/BryantPro-Regular.woff') format('woff'), 
        url('http://www.aequales.com/assets/fonts/BryantPro-Regular.ttf')  format('truetype'), 
        url('http://www.aequales.com/assets/fonts/BryantPro-Regular.svg') format('svg'); 
+}
+
+.text-fold {
+  background-color: rgba(10, 10, 10, 0.3);
+}
+.text-fold h3 {
+  line-height: 1.1 !important;
 }
