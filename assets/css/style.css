@@ -5368,3 +5368,10 @@ tbody.collapse.in {
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
