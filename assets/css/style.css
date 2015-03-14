@@ -5371,7 +5371,7 @@ tbody.collapse.in {
 
 @media only screen and (max-width: 480px) {
   header {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px !important;
+    padding-right: 0px;
   }
 }
