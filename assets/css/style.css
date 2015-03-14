@@ -5377,7 +5377,7 @@ tbody.collapse.in {
 }
 
 @media only screen and (max-width: 480px) {
-  header .navbar-collapse {
+  header .collapse {
     display: -webkit-box !important;
   }
 }
