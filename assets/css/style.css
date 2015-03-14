@@ -5361,3 +5361,10 @@ tbody.collapse.in {
     position: absolute;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  header .navbar-nav {
+    width: 283px;
+    text-align: center;
+  }
+}
