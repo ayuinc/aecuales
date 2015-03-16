@@ -5332,8 +5332,9 @@ tbody.collapse.in {
 .text-fold {
   background-color: rgba(10, 10, 10, 0.3);
 }
-.text-fold h3 {
+.text-fold h2 {
   line-height: 1.1 !important;
+  text-shadow: 0.1em 0.1em black;
 }
 
 .text-black {
