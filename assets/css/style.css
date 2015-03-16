@@ -4330,7 +4330,7 @@ body {
   border-radius: 7px;
   padding: 15px;
   height: 235px; }
-  #talleres .content:hover .content-interno {
+  #talleres .content:hover.content-interno {
     visibility: visible;
   }
   #talleres .content .title-grid {
