@@ -19,10 +19,12 @@ class Subscriber
 		$form_id = $this->EE->TMPL->fetch_param('form_id');
 		
 		$this->EE->load->model(SUBSCRIBER_DB_FORMS.'_model');
+		$this->CI =& get_instance();
+		$this->CI->load->helper('form');
 		
 		if ($this->EE->subscriber_forms_model->count(array('id' => $form_id)))
 		{
-			$this->return_data = form_hidden('subscriber_form_id[]', $form_id);
+			$this->return_data = $this->CI->form_hidden('subscriber_form_id[]', $form_id);
 		}
 		
 		return $this->return_data;
