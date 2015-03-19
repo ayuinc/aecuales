@@ -5155,7 +5155,7 @@ footer {
     color: white;
     font-weight: 400;
     font-style: normal;
-    z-index: 10000; }
+    z-index: 100; }
   #siguenos .social > li a .icon {
     position: absolute;
     bottom: 14px;
