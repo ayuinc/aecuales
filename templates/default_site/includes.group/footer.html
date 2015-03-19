@@ -54,8 +54,10 @@
                 form_name="contact"
                 return="content/index"
               }
-              <p><label>{freeform:label:name}</label> {freeform:field:name}</p>
+              <p><label>{freeform:label:first_name}</label> {freeform:field:first_name}</p>
+              <p><label>{freeform:label:last_name}</label> {freeform:field:last_name}</p>
               <p><label>{freeform:label:email}</label> {freeform:field:email}</p>
+              <p><label>{freeform:label:user_message}</label> {freeform:field:user_message}</p>
               <p><input type="submit" name="submit" value="Vote!" /></p>
               {exp:subscriber:form form_id="1"}
               {/exp:freeform:form}
