@@ -24,7 +24,7 @@ class Subscriber
 		
 		if ($this->EE->subscriber_forms_model->count(array('id' => $form_id)))
 		{
-			$this->return_data = $this->CI->form_hidden('subscriber_form_id[]', $form_id);
+			$this->return_data = form_hidden('subscriber_form_id[]', $form_id);
 		}
 		
 		return $this->return_data;
