@@ -5601,7 +5601,7 @@ button.close {
       .main-nav a {
         padding: 21px 0;
         display: block;
-        margin-right: 0;
+        margin-right: 0 !important;
       }
     }
 
