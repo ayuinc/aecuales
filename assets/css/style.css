@@ -4335,10 +4335,10 @@ body {
   }*/
   #talleres .content .title-grid:hover h3 {
    visibility: hidden;}
-  #talleres .content .title-grid p {
+  #talleres .content p {
    visibility: hidden;}
 
-  #talleres .content .title-grid:hover p {
+  #talleres .content:hover p {
     visibility: visible !important; 
   }
 /*#talleres .content-interno {
