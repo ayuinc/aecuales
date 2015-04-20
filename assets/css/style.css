@@ -4334,7 +4334,8 @@ body {
     visibility: visible;
   }*/
   #talleres .content:hover .title-grid h3 {
-   visibility: hidden !important;}
+   visibility: hidden !important;
+    display: none !important;}
   #talleres .content p {
    visibility: hidden;}
 
