@@ -5547,3 +5547,7 @@ button.close {
   width: 100%;
   height: 60px;
 }
+
+#aliados ul li {
+  float: left;
+}
