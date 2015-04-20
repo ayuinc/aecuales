@@ -4340,6 +4340,8 @@ body {
 
   #talleres .content:hover p {
     visibility: visible !important; 
+    position: relative;
+    top: -129px;
   }
 /*#talleres .content-interno {
     border-radius: 7px;
