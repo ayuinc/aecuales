@@ -5358,11 +5358,7 @@ tbody.collapse.in {
 
 @media only screen and (max-width: 480px) {
   header .navbar-collapse {
-    position: relative;
-    margin-top: 10px;
-    padding-right: 14px;
-    width: 319px;
-    background: rgba(0, 0, 0, 0.0980392);
+    background: #f5f5f5;
   }
 }
 
@@ -5551,3 +5547,56 @@ button.close {
 #aliados ul li {
   float: left;
 }
+
+
+ /*responsive header*/
+    @media only screen and (max-width: 480px) {
+      header .container {
+        position: relative;
+        padding: 0;
+      }
+    }
+
+     @media only screen and (max-width: 480px) {
+      header .container .navbar-collapse {
+        width: 100%;
+        position: relative;
+        padding: 0px;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      nav.main-nav {
+       text-align: center;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .main-nav a {
+         padding: 25px 0;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .main-nav a.problematica {
+         background: #bbb;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .main-nav a.el-equipo {
+         background: #bbb;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .main-nav a.contacta {
+         background: #bbb;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+       header .container .col-sm-4 {
+        position: absolute;
+      }
+    }
