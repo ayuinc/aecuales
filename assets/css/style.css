@@ -5599,7 +5599,8 @@ button.close {
 
     @media only screen and (max-width: 480px) {
       .main-nav a {
-        padding: 21px;
+        padding: 21px 0;
+        display: block;
       }
     }
 
