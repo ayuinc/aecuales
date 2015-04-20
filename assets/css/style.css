@@ -4333,8 +4333,14 @@ body {
 /*  #talleres .content:hover.content-interno {
     visibility: visible;
   }*/
-  #talleres .content .title-grid {
-    border-bottom: 1px solid white; }
+  #talleres .content .title-grid:hover h3 {
+   visibility: hidden;}
+  #talleres .content .title-grid p {
+   visibility: hidden;}
+
+  #talleres .content .title-grid:hover p {
+    visibility: visible !important; 
+  }
 /*#talleres .content-interno {
     border-radius: 7px;
     padding: 15px;
