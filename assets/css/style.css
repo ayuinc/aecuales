@@ -4333,8 +4333,8 @@ body {
 /*  #talleres .content:hover.content-interno {
     visibility: visible;
   }*/
-  #talleres .content:hover .title-grid {
-   visibility: hidden;}
+  #talleres .content:hover .title-grid h3 {
+   visibility: hidden !important;}
   #talleres .content p {
    visibility: hidden;}
 
