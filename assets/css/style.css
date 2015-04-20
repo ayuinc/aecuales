@@ -5260,6 +5260,7 @@ footer {
   @media only screen and (max-width: 480px) {
     header .navbar-collapse {
       padding-right: 0;
+      height: 280px;
     }
   }
 
