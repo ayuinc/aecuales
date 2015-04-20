@@ -175,13 +175,13 @@
         <section id="aliados" class="bg-gray-lighter">
           <div class="container text-center pv-70">
             <h1 class="text-black lead">Aliados y Clientes</h1>
-            <div class="row mt-56">
+            <ul class="mt-56 list-unstyled">
 	            {exp:channel:entries channel="aliados" limit="6"}
-              <div class="col-md-3">
+              <li>
                 <img src="{logo}" class="img-responsive" alt="{title}" width="70%">
-              </div>
+              </li>
               {/exp:channel:entries}
-            </div>
+            </ul>
           </div>
         </section>
         <section id="blog">
