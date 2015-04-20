@@ -5260,7 +5260,7 @@ footer {
   @media only screen and (max-width: 480px) {
     header .navbar-collapse {
       padding-right: 0;
-      height: 420px;
+      height: 340px;
     }
   }
 
@@ -5581,19 +5581,19 @@ button.close {
 
     @media only screen and (max-width: 480px) {
       .main-nav a.problematica {
-         background: #bbb;
+         background: #ddd;
       }
     }
 
     @media only screen and (max-width: 480px) {
       .main-nav a.el-equipo {
-         background: #bbb;
+         background: #ddd;
       }
     }
 
     @media only screen and (max-width: 480px) {
       .main-nav a.contacta {
-         background: #bbb;
+         background: #ddd;
       }
     }
 
@@ -5602,6 +5602,7 @@ button.close {
         padding: 21px 0;
         display: block;
         margin-right: 0 !important;
+        font-size: 16px;
       }
     }
 
