@@ -5260,7 +5260,7 @@ footer {
   @media only screen and (max-width: 480px) {
     header .navbar-collapse {
       padding-right: 0;
-      height: 280px;
+      height: 420px;
     }
   }
 
@@ -5594,6 +5594,12 @@ button.close {
     @media only screen and (max-width: 480px) {
       .main-nav a.contacta {
          background: #bbb;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .main-nav a {
+        padding: 21px;
       }
     }
 
