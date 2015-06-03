@@ -1,7 +1,7 @@
-{embed="includes/header"}
+{exp:channel:entries channel="blog" limit="1"}
+{embed="includes/header" titulo="{title}" imagen="{imgen_blog}"}
     <div class="site-wrapper">
 			{embed="includes/menu"}
-			{exp:channel:entries channel="blog" limit="1"}
 			<div class="site-content">
         <section id="blog pv-70">
           <div class="container-sm pv-70">
@@ -18,5 +18,5 @@
           </div>
         </section>   
       </div>
-      {/exp:channel:entries}
+{/exp:channel:entries}
 {embed="includes/footer"}
